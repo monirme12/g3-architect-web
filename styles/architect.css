@@ -6,6 +6,10 @@
   font-weight: <weight>;
   font-style: normal;
 }
+* {
+  margin: 0px;
+  padding: 0px;
+}
 .text-light-gray {
   color: #727272;
 }
@@ -93,8 +97,7 @@ main {
   color: #ff900e;
   font-weight: 700;
 }
-.facts {
-}
+
 .facts-card-container {
   display: flex;
   justify-content: space-around;
@@ -120,6 +123,7 @@ main {
   margin-top: 130px;
   display: flex;
   gap: 100px;
+  width: 100%;
 }
 .feature-content .card {
   padding: 30px;
@@ -148,6 +152,7 @@ main {
 .feature-image img {
   height: 90%;
   margin-left: 90px;
+  margin-right: 100px;
 }
 .ten-year-batch {
   border-radius: 8px;
@@ -185,6 +190,11 @@ footer {
   .features {
     flex-direction: column;
   }
+  .text-light-gray {
+    color: #727272;
+    padding: 10px;
+  }
+
   .teams-img-container {
     grid-template-columns: 1fr;
   }
