@@ -189,7 +189,7 @@ main {
     gap: 20px;
   }
   .feature-image img {
-    width: 90%;
+    width: 100%;
     margin-left: 0px;
   }
   .ten-year-batch {
@@ -207,5 +207,17 @@ main {
   .facts-card-container,
   .features {
     flex-direction: column;
+  }
+  .feature-image img {
+    width: 100%;
+    margin-left: 0px;
+    align-items: center;
+  }
+  .teams-img-container {
+    grid-template-columns: 1fr;
+  }
+  .ten-year-batch {
+    position: static;
+    max-width: 250px;
   }
 }
