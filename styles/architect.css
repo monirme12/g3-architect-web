@@ -166,6 +166,14 @@ main {
 .ten-year-batch p {
   font-size: 1.5rem;
 }
+footer {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 5px 40px;
+  text-align: center;
+  border-radius: 8px;
+  width: 60%;
+  margin: 0px auto 100px;
+}
 @media screen and (max-width: 576px) {
   header {
     padding: 20px;
@@ -189,7 +197,7 @@ main {
     gap: 20px;
   }
   .feature-image img {
-    width: 100%;
+    width: 90%;
     margin-left: 0px;
   }
   .ten-year-batch {
@@ -209,7 +217,7 @@ main {
     flex-direction: column;
   }
   .feature-image img {
-    width: 100%;
+    width: 90%;
     margin-left: 0px;
     align-items: center;
   }
