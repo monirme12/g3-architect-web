@@ -97,10 +97,19 @@ main {
   color: #ff900e;
   font-weight: 700;
 }
-
+.facts {
+  margin-left: 50px;
+}
 .facts-card-container {
   display: flex;
   justify-content: space-around;
+}
+.facts .section-title {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.facts p {
+  margin-bottom: 50px;
 }
 .facts-card-container .card-title {
   font-size: 1.25rem;
@@ -152,7 +161,6 @@ main {
 .feature-image img {
   height: 90%;
   margin-left: 90px;
-  margin-right: 100px;
 }
 .ten-year-batch {
   border-radius: 8px;
@@ -226,10 +234,12 @@ footer {
   .features {
     flex-direction: column;
   }
+  .facts-card-container {
+    gap: 20px;
+  }
   .feature-image img {
     width: 90%;
     margin-left: 0px;
-    align-items: center;
   }
   .teams-img-container {
     grid-template-columns: 1fr;
